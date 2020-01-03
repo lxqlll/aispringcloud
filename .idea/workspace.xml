@@ -1,7 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19c5e762-9125-47eb-8791-8aecc45b6a64" name="Default Changelist" comment="" />
+    <list default="true" id="19c5e762-9125-47eb-8791-8aecc45b6a64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/configclient.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/southwind/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/southwind/controller/ConsumerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/southwind/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/southwind/ConsumerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/southwind/controller/ConsumerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/southwind/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/eurekaclient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/southwind/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/southwind/ProviderApplication2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/southwind/controller/StudentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/southwind/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/southwind/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/southwind/repository/impl/StudentRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/target/classes/META-INF/eurekaclient.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/target/classes/com/southwind/ProviderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/target/classes/com/southwind/ProviderApplication2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/target/classes/com/southwind/controller/StudentHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/target/classes/com/southwind/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/target/classes/com/southwind/repository/StudentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/target/classes/com/southwind/repository/impl/StudentRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/java/com/southwind/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/target/classes/com/southwind/EurekaServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/feign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/southwind/FeignApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/southwind/controller/FeignHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/southwind/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/southwind/feign/FeignProviderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/southwind/feign/impl/FeignError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/META-INF/feign.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/com/southwind/FeignApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/com/southwind/controller/FeignHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/com/southwind/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/com/southwind/feign/FeignProviderClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/com/southwind/feign/impl/FeignError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/hystrix.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/southwind/controller/HystrixHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/southwind/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/southwind/feign/FeignProviderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/southwind/hystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/target/classes/com/southwind/controller/HystrixHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/target/classes/com/southwind/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/target/classes/com/southwind/feign/FeignProviderClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/target/classes/com/southwind/hystrixApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/nativeconfigclient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/src/main/java/com/southwind/NativeConfigClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/src/main/java/com/southwind/controller/NativeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/target/classes/com/southwind/NativeConfigClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/target/classes/com/southwind/controller/NativeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/src/main/java/com/southwind/NativeConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/src/main/resources/shared/configclient-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/target/classes/com/southwind/NativeConfigServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/target/classes/shared/configclient-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resttemplate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resttemplate/src/main/java/com/southwind/RestTemplateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resttemplate/src/main/java/com/southwind/controller/RestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resttemplate/src/main/java/com/southwind/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resttemplate/target/classes/com/southwind/RestTemplateApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resttemplate/target/classes/com/southwind/controller/RestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resttemplate/target/classes/com/southwind/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/ribbon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/southwind/RibbonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/southwind/controller/RibbonHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/southwind/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/target/classes/com/southwind/RibbonApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/target/classes/com/southwind/controller/RibbonHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/target/classes/com/southwind/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin/src/main/java/com/southwind/ZipkinApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkinclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkinclient/zipkinclient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/com/southwind/ZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/target/classes/com/southwind/ZuulApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/zuul.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eurekaserver/target/" />
@@ -40,17 +152,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,7 +170,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="D:/git/aiSpringCloud" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -348,12 +450,27 @@
       <workItem from="1577497125352" duration="4279000" />
       <workItem from="1577684095511" duration="1343000" />
       <workItem from="1577687213241" duration="3319000" />
-      <workItem from="1578011552726" duration="1754000" />
+      <workItem from="1578011552726" duration="2012000" />
     </task>
+    <task id="LOCAL-00001">
+      <created>1578013672010</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578013672010</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交aiSpringCloud !!!">
+      <created>1578013804023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578013804023</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87284000" />
+    <option name="totallyTimeSpent" value="87542000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,7 +560,8 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="提交aiSpringCloud !!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交aiSpringCloud !!!" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -893,8 +1011,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="290">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
