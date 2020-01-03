@@ -1,0 +1,14 @@
+#当前端口号
+server:
+  port: 1111
+
+spring:
+  application:
+    name: consumer  #当前的服务注册在eureka server上的名称
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7777/eureka/ #注册中心的访问地址
+  instance:
+    prefer-ip-address: true #将当前服务的ip注册到eureka server

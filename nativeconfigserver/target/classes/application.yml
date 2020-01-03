@@ -1,0 +1,17 @@
+server:
+  port: 6666
+
+
+spring:
+  application:
+    name: nativeconfigserver
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/shared
+
+
+

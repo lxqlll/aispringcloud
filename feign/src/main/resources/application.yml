@@ -1,0 +1,20 @@
+server:
+  port: 7878
+
+
+spring:
+  application:
+    name: feign
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7777/eureka/ #注册中心的访问地址
+  instance:
+    prefer-ip-address: true
+
+#是否开启熔断器
+feign:
+  hystrix:
+    enabled: true

@@ -1,0 +1,12 @@
+#当前端口号
+server:
+  port: 7777
+
+#是否注册自己
+eureka:
+  client:
+    register-with-eureka: false #是否将当前的eureka Server服务作为客户端进行注册
+    fetch-registry: false #同步其他
+    service-url:
+      defaultZone: http://localhost:7777/eureka
+
